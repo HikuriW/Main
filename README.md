@@ -1,2 +1,3 @@
-# Main
-Private Script~
+# Hikuriware C:
+
+- Private Script~ (Friends Only).
