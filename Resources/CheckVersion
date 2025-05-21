@@ -1,1 +1,10 @@
+-- // Checks for recent updates [Inaccurate Time]~
+shared.UpdateTimer = 45; -- // Mommy said 45 so 45.
 
+local cloneref = cloneref or function(o) return o end;
+local OnExit = function()
+    pcall(function() (shared.GetUI()):Destroy() end);shared.DisableElements();task.wait();
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HikuriW/Main/home/Loader.lua"))();
+end
+
+local M=cloneref(game:GetService("HttpService"))local Y="https://raw.githubusercontent.com/HikuriW/Main/refs/heads/home/Version.json"local a=nil local v=nil local U=nil local function b()local a=game:HttpGet(Y)return M:JSONDecode(a)end local function P()a=b()if not a then return end v=a.Version for M,Y in pairs(a.Games)do((getgenv()))[M]=Y end end local function n()local M=b()if not M then return end local Y=M.Version local a=M.Games local P={}for M,Y in pairs(a)do if((getgenv()))[M]~=Y then table.insert(P,M);((getgenv()))[M]=Y end end local n=Y~=v local D=""if n and#P>0 then D="There was an Update for ("..(table.concat(P,", ")..(") and the Version ("..(v..(" -> "..(Y..") Would you like to Reload?")))))elseif n then D="There was A minor Update. Would you like to Reload? ("..(v..(" -> "..(Y..")")))elseif#P>0 then D="There was an Update for ("..(table.concat(P,", ")..(") However the Version stays ("..(v.."). Would you like to Reload?")))end if D~=""and D~=U then Window:Dialog({Title=Window.Settings.Title,Description=D;Buttons={{Name="Confirm",Callback=function()OnExit()end};{Name="Cancel"}}})U=D end v=Y end local function D()P()while true do task.wait(shared.UpdateTimer)n()end end if not(getgenv()).UpdateNotificationShown==true then(getgenv()).UpdateNotificationShown=true D()end
