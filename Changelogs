@@ -1,0 +1,728 @@
+-- // This will be edited any time an update occurs [CANNOT BE MODIFIED!].
+
+-- 94,94,255 (BWUO)~
+-- 255,140,0 (ORENG)~
+-- 94,255,94 (GEEEN)~
+-- 255,0,43 (REBBB)~
+
+-- // Status Variables \\ --
+getgenv().SakuraStandStatus = '<font color="rgb(255,140,0)">Updating Soon</font> - Last Update: 06/05/2025';
+getgenv().MurderMystery2Status = '<font color="rgb(94,255,94)">Operational</font> - Last Update: 05/04/2025';
+getgenv().AriseCrossoverStatus = '<font color="rgb(94,255,94)">Operational</font> - Last Update: 14/04/2025';
+getgenv().ProjectMenacingStatus = '<font color="rgb(255,0,43)">Unoperational</font> - Last Update: 29/01/2025';
+getgenv().StandsAwakeningStatus = '<font color="rgb(255,0,43)">Unoperational</font> - Last Update: 23/12/2024';
+getgenv().SecondPieceStatus = '<font color="rgb(94,255,94)">Operational</font> - Last Update: 19/04/2025';
+getgenv().UntitledGymGameStatus = '<font color="rgb(94,255,94)">Operational</font> - Last Update: 29/01/2025';
+getgenv().AUniversalTimeStatus = '<font color="rgb(255,140,0)">Updating Soon</font> - Last Update: 01/05/2025';
+
+-- // Title \\ --
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+local ChangelogsSection1 = getgenv().ChangelogsTab:Section({Side = "Left"});
+
+ChangelogsSection1:Header({Text = "Changelogs - Updates"});
+
+ChangelogsSection1:Divider();
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- // Changelogs Maker \\ --
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.41 [A Universal Time]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Boss Prioritize System."});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Auto Collect Chests."});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Autofarm Offsets~"});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Overall Performance~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.40 [Sakura Stand]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed some stuff."});
+
+ChangelogsSection1:SubLabel({Text = "- Update is ongoing but am lazy."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.39 [A Universal Time]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added some tiny stuff."});
+
+ChangelogsSection1:SubLabel({Text = "- Improvment in Performance."});
+
+ChangelogsSection1:SubLabel({Text = "- More stuff will be added soon!~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.38 [Settings]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = '- Rewrote "Fast loader".'});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Performance~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added UI Protection!"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.37 [Settings]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed Mobile UI issues."});
+
+ChangelogsSection1:SubLabel({Text = "- Refined its Size and Position~"});
+
+ChangelogsSection1:SubLabel({Text = "- Sincerely apologize for the long wait :C"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.36 [Second Piece]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Applied Changes For The New Update~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Auto Portal Features~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Weapon Slots Multi Support~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Auto Summon Bosses~"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed Some ahh stuff~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.35 [Arise Crossover]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added The script [In BETA]"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.34 [Settings]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Changed some minor stuff in toggles/config~"});
+
+ChangelogsSection1:SubLabel({Text = "- Will add back analytics request soon~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.33 [Settings]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Theme Selector~"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed Theme loading issues."});
+
+ChangelogsSection1:SubLabel({Text = "- Reloading configs is less laggy now."});
+
+ChangelogsSection1:SubLabel({Text = "- Instance Manager no longer saves inputs~"});
+
+ChangelogsSection1:SubLabel({Text = "- Will add back analytics request soon~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.32 [Sakura Stand]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed Velocity Bug (Not executor)~"});
+
+ChangelogsSection1:SubLabel({Text = "- Removed Christmas Event (GG'S)"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed Old Item UI appearing~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Meditation section in Misc!"});
+
+ChangelogsSection1:SubLabel({Text = '- Fixed "Auto Rest Items CD" Feature!'});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Skin Arcade Roll [UNTESTED]"});
+
+ChangelogsSection1:SubLabel({Text = "- You Can Now Roll Multiple Banners."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.31 [Murder Mystery 2]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Auto Fling Sherrif [BETA]"});
+
+ChangelogsSection1:SubLabel({Text = "- Autofarm Is Underground Now~"});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Session Timer~"});
+
+ChangelogsSection1:SubLabel({Text = "- Tweaked Autofarm Speeds~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.30 [Settings]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added White Outline ~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added instance section~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Rainbow UI / Custom Themes."});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed Managers not closing on exit."});
+
+ChangelogsSection1:SubLabel({Text = "- You can now request your analytics."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.29 [Murder Mystery2]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added the auto play script~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.28 [Second Piece]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Brought the script back~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.27 [Sakura Stand]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added support for the new event~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.26 [A Universal Time]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added script, Its in BETA~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.25 [Untitled Gym Game]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Mike Tyson Difficulty~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.25 [Project Menacing]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Removed some stuff due to patches~"});
+
+ChangelogsSection1:SubLabel({Text = "- The game will no longer recieve updates~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.24 [Second Piece]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Increased teleports speeds~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.24 [Untitled Gym Game]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Improved script by tiny bit~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added recent Anti Cheats"});
+
+ChangelogsSection1:SubLabel({Text = "- Tool no longer gets detected."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.23 [Second Piece]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed Tool Attacking once."});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Farming Offsets."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Tool Equipper."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Selective Attacks."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Shadow Quest Mask TPS."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Item Sniper Buyer."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Auto Roll Races~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Auto Chest Farmer"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Auto Miner"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Item Farmer."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Boss Farmer."});
+
+ChangelogsSection1:SubLabel({Text = "- Hueco map will get deleted to fix stuff."});
+
+ChangelogsSection1:SubLabel({Text = "- Semi God Mode in Farming section now."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.22 [Second Piece]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added script for the game~"});
+
+ChangelogsSection1:SubLabel({Text = "- It is in BETA!"});
+
+ChangelogsSection1:SubLabel({Text = "- More features will be added soon."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.21 [Untitled Gym Game]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added script for the game~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.20 [Settings]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Changed config paths (check workspace)"});
+
+ChangelogsSection1:SubLabel({Text = "- They are more optimized now!"});
+
+ChangelogsSection1:SubLabel({Text = "- All configs have been reset."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.19 [Settings]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added 1 more section in settings lol"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.18 [Settings]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added new section in settings~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.17 [Project Menacing]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Shadow DIO Farmer!~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added OP Shiny Arrow Farmer!"});
+
+ChangelogsSection1:SubLabel({Text = "- Removed Christmas Event Stuff."});
+
+ChangelogsSection1:SubLabel({Text = "- Useless skins from Stand Farmer."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.16 [Project Menacing]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added back Project Menacing"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.15 [Settings]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- New Settings have been added"});
+
+ChangelogsSection1:SubLabel({Text = "- I'm totally not speedrunning versions :D"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.14 [Settings]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Config will have support for ALTS!"});
+
+ChangelogsSection1:SubLabel({Text = "- Previous Config wouldnt work."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.13 [Project Menacing]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Support for Shiny Arrows~"});
+
+ChangelogsSection1:SubLabel({Text = "- Removed Fighting Section (TEMP)~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Auto Buy/Take Feautre (Overpowered)"});
+
+ChangelogsSection1:SubLabel({Text = "- Removed Cookies from Info Section"});
+
+ChangelogsSection1:SubLabel({Text = "- Changed Selective Attacks Defaults"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.12 [Project Menacing]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Support for Project Menacing!~"});
+
+ChangelogsSection1:SubLabel({Text = "- It is in BETA Version"});
+
+ChangelogsSection1:SubLabel({Text = "- Suggestions are very welcome~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.11 [Sakura Stand]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Deku Farmer its unlocked now!!!!~"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed showing false Information about progress."});
+
+ChangelogsSection1:SubLabel({Text = "- Removed Weather Scripts Section :(("});
+
+ChangelogsSection1:SubLabel({Text = "- Changed the Position of the Features."});
+
+ChangelogsSection1:SubLabel({Text = "- Removed The Halloween Related Scripts (!)"});
+
+ChangelogsSection1:SubLabel({Text = "- Minimized the chances of flinged mob occurances."});
+
+ChangelogsSection1:SubLabel({Text = "- Auto Reset Items CD will not reset when in combat!!!"});
+
+ChangelogsSection1:SubLabel({Text = "- Entities Esp will ignore any Dummy now!~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.10 [Stands Awakening]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Map Teleports~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added OP Stand Farmer!!!~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Miscs Sections"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed Alucard Auto Quests checks"});
+
+ChangelogsSection1:SubLabel({Text = "- Changed Item Farming Method (TouchInterest)"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.09 [Stands Awakening]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Support for Stands Awakening!~"});
+
+ChangelogsSection1:SubLabel({Text = "- It is in BETA Version"});
+
+ChangelogsSection1:SubLabel({Text = "- Suggestions are very welcome~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.09 [Sakura Stand]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Config Folder been renamed~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.08 [Sakura Stand]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Solarat users are blacklisted now:)~"});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Autofarm Further Beyond~"});
+
+ChangelogsSection1:SubLabel({Text = "- Auto Dodger when Autofarming Deku spesifically."});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed Not attacking when Jotaro held blocks~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Auto Summon The Red Mist."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Deku Farmer [LOCKED]~"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed 1 line in Auto Pick OFA feature."});
+
+ChangelogsSection1:SubLabel({Text = "- Removed useless functions~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added more Defaults + Search bars onto dropdowns."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Alucard's Banner in the dropdown."});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Auto Skip Menu Loader"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Search bar to every dropdown."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.07 [Sakura Stand]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Auto Bait Boss section!"});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Auto summon Toji!~"});
+
+ChangelogsSection1:SubLabel({Text = "- Unique items will get prioritized (Even in Mob Farm)."});
+
+ChangelogsSection1:SubLabel({Text = "- Rewrote Auto Escape Combo (Again...)"});
+
+ChangelogsSection1:SubLabel({Text = "- Changed Keys in selection."});
+
+ChangelogsSection1:SubLabel({Text = "- Removed Admin bosses from Auto Bosses Mode."});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Mob Selection (Bosses are prioritized)"});
+
+ChangelogsSection1:SubLabel({Text = "- Changed UI Size ->> (910,710)"});
+
+ChangelogsSection1:SubLabel({Text = "- Added 'Deal Damage' to dummy."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Hallowen Shop UI."});
+
+ChangelogsSection1:SubLabel({Text = "- Roland items will now get ignored."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Search bar to every dropdown."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.06 [Sakura Stand]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Rewrote Attacking function (Subject to change)"});
+
+ChangelogsSection1:SubLabel({Text = "- Rewrote Auto Escape Combos~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added more Toji Spawn Methods."});
+
+ChangelogsSection1:SubLabel({Text = "- Added mob support for public users."});
+
+ChangelogsSection1:SubLabel({Text = "- Added a Slider for Auto Respawn V1/V2"});
+
+ChangelogsSection1:SubLabel({Text = "- Added New info about the One Shot."});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed Anti AFK (Better now)."});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed Some stuff I cant remember lol."});
+
+ChangelogsSection1:SubLabel({Text = "- Removed Sounds Section (Useless)"});
+
+ChangelogsSection1:SubLabel({Text = "- Removed random notifs (Will return soon)."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.05 [Sakura Stand]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added the new halloween boss~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added camera noclip while using Hikuriware"});
+
+ChangelogsSection1:SubLabel({Text = "- Added a lot of secret teleports"});
+
+ChangelogsSection1:SubLabel({Text = "- Resized UI for Mobiles from 55% ->> 50%"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed random notifs"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.04 [Sakura Stand]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Toxic Scripts Section"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Added Notification Sounds"});
+
+ChangelogsSection1:SubLabel({Text = "- Revamped Farming Features Section"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed so many stuff  -_-"});
+
+ChangelogsSection1:SubLabel({Text = "- Added so many stuff  OwO"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.03 [Sakura Stand]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added More Teleports Section"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Notification Section"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed Auto store items"});
+
+ChangelogsSection1:SubLabel({Text = "- Now you can Select / Unselect items"});
+
+ChangelogsSection1:SubLabel({Text = "- Auto toggles are now automatic for important features"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.02 [Settings]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added custom theme colors!~"});
+
+ChangelogsSection1:SubLabel({Text = "- Mobiles devices get 50% less scale now."});
+
+ChangelogsSection1:SubLabel({Text = "- Theme is now black and Blur set higher."});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Mod Detections, Now it detects teams aswell."});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Snitch Detections"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.01 [Sakura Stand]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Script released!"});
+
+ChangelogsSection1:Label({Text = "This the beginning of our journey!"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- // Supported Games \\ --
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+local ChangelogsSection2 = getgenv().ChangelogsTab:Section({Side = "Right"});
+ChangelogsSection2:Header({Text = "Supported Games"});
+
+ChangelogsSection2:Divider();
+
+ChangelogsSection2:Paragraph({Header = "* Murder Mystery 2",Body = getgenv().MurderMystery2Status});
+ChangelogsSection2:Paragraph({Header = "* A Universal Time",Body = getgenv().AUniversalTimeStatus});
+ChangelogsSection2:Paragraph({Header = "* Untitled Gym Game",Body = getgenv().UntitledGymGameStatus});
+ChangelogsSection2:Paragraph({Header = "* Arise Crossover",Body = getgenv().AriseCrossoverStatus});
+ChangelogsSection2:Paragraph({Header = "* Sakura Stand",Body = getgenv().SakuraStandStatus});
+ChangelogsSection2:Paragraph({Header = "* Second Piece",Body = getgenv().SecondPieceStatus});
+ChangelogsSection2:Paragraph({Header = "* Project Menacing",Body = getgenv().ProjectMenacingStatus});
+ChangelogsSection2:Paragraph({Header = "* Stands Awakening",Body = getgenv().StandsAwakeningStatus});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- // Suggestion Reports \\ --
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+local ChangelogsSection3 = getgenv().ChangelogsTab:Section({Side = "Right"});
+ChangelogsSection3:Header({Text = "Suggestion Reports"});
+
+ChangelogsSection3:Divider();
+
+ChangelogsSection3:Paragraph({Header = "* Before you write:",Body = "Make sure to state the game you want, It is crucial."});
+
+ChangelogsSection3:Input({Name = "Type here whatever~",Placeholder = 'Write here',AcceptedCharacters = "All",Callback = function(Input)
+     getgenv().SuggestionValue = Input;
+end})
+
+ChangelogsSection3:Button({Name = "Submit Suggestion [LOCKED]",Callback = function()
+   -- getgenv().SubmitSuggestion();
+end})
+
+ChangelogsSection3:SubLabel({Text = '<font color="rgb(255,140,0)">Disclaimer: Usernames will be logged.</font>'});
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- // Bug Reports \\ --
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+local ChangelogsSection4 = getgenv().ChangelogsTab:Section({Side = "Right"});
+ChangelogsSection4:Header({Text = "Bug Reports"});
+
+ChangelogsSection4:Divider();
+
+ChangelogsSection4:Paragraph({Header = "* Before you write:",Body = "Click on the format button and paste to your notepad, Then edit it. Make sure to state the game you are in!"});
+ 
+ChangelogsSection4:Button({Name = "Get Bug Report Format",Callback = function()
+     getgenv().GetFormat();
+end})
+
+ChangelogsSection4:Input({Name = "Type here whatever~",Placeholder = 'Write here',AcceptedCharacters = "All",Callback = function(Input)
+     getgenv().ReportValue = Input;
+end})
+
+ChangelogsSection4:Button({Name = "Submit Report [LOCKED]",Callback = function()
+    -- getgenv().SubmitReport();
+end})
+
+ChangelogsSection4:SubLabel({Text = '<font color="rgb(255,140,0)">Disclaimer: Usernames will be logged.</font>'});
