@@ -7,11 +7,11 @@ CreditsSection1:Divider();
 
 CreditsSection1:Spacer();
 
-CreditsSection1:Paragraph({Header = "Main Developer~",Body = "Mommy Hikuri <3"});
+CreditsSection1:Paragraph({Header = "Main Developer~",Body = "Mommy HikuriW <3~"});
 
 CreditsSection1:Spacer();
 
-CreditsSection1:Paragraph({Header = "UI Library~",Body = "Littaboy212 (Modified by Hikuri)"});
+CreditsSection1:Paragraph({Header = "UI Library~",Body = "Littaboy212 (Modified by HikuriW)"});
 
 CreditsSection1:Spacer();
 
@@ -27,13 +27,11 @@ CreditsSection2:Header({Text = "Contact me"});
 CreditsSection2:Divider();
 
 CreditsSection2:Button({Name = "Get in touch with Mommy here~",Callback = function()
-	Window:Notify({Title = Window.Settings.Title,Description = "My contact information is in your clipboard!",Lifetime = 3});
-  setclipboard("https://discord.com/users/1197974090519158974");
+       Window:Notify({Title = Window.Settings.Title,Description = "My contact information is in your clipboard!",Lifetime = 3});
+      setclipboard("https://discord.com/users/1197974090519158974");
 end})
 
 CreditsSection2:SubLabel({Text = "Please dont contact me for no reason~"});
-
-local CreditsSection3 = getgenv().CreditsTab:Section({Side = "Left"});
 
 local CreditsSection4 = getgenv().CreditsTab:Section({Side = "Right"});
 
