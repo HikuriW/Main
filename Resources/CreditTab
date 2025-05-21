@@ -37,13 +37,13 @@ local CreditsSection3 = getgenv().CreditsTab:Section({Side = "Left"});
 
 local CreditsSection4 = getgenv().CreditsTab:Section({Side = "Right"});
 
-CreditsSection4:Header({Text = "© 2025 FlamesW. All rights reserved."});
+CreditsSection4:Header({Text = "© 2025 HikuoriW. All rights reserved."});
 
 CreditsSection4:Divider();
 
 CreditsSection4:Spacer();
 
-CreditsSection4:Paragraph({Header = "Ownership & Rights",Body = "This script and all associated materials are the exclusive property of FlamesW. It is protected by copyright."});
+CreditsSection4:Paragraph({Header = "Ownership & Rights",Body = "This script and all associated materials are the exclusive property of HikuriW. It is protected by copyright."});
 
 CreditsSection4:Spacer();
 
