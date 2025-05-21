@@ -1,0 +1,64 @@
+-- // This is for the script, It is not meant to be executed.
+local CreditsSection1 = getgenv().CreditsTab:Section({Side = "Left"});
+
+CreditsSection1:Header({Text = "Credits Wall"});
+
+CreditsSection1:Divider();
+
+CreditsSection1:Spacer();
+
+CreditsSection1:Paragraph({Header = "Main Developer~",Body = "Mommy Hikuri <3"});
+
+CreditsSection1:Spacer();
+
+CreditsSection1:Paragraph({Header = "UI Library~",Body = "Littaboy212 (Modified by Hikuri)"});
+
+CreditsSection1:Spacer();
+
+CreditsSection1:Paragraph({Header = "Some Sources~",Body = "Sirius Team."});
+
+CreditsSection1:Divider();
+
+CreditsSection1:SubLabel({Text = "Thanks to all these amazing people <3"});
+
+local CreditsSection2 = getgenv().CreditsTab:Section({Side = "Left"});
+CreditsSection2:Header({Text = "Contact me"});
+
+CreditsSection2:Divider();
+
+CreditsSection2:Button({Name = "Get in touch with Mommy here~",Callback = function()
+	Window:Notify({Title = Window.Settings.Title,Description = "My contact information is in your clipboard!",Lifetime = 3});
+  setclipboard("https://discord.com/users/1197974090519158974");
+end})
+
+CreditsSection2:SubLabel({Text = "Please dont contact me for no reason~"});
+
+local CreditsSection3 = getgenv().CreditsTab:Section({Side = "Left"});
+
+local CreditsSection4 = getgenv().CreditsTab:Section({Side = "Right"});
+
+CreditsSection4:Header({Text = "© 2025 FlamesW. All rights reserved."});
+
+CreditsSection4:Divider();
+
+CreditsSection4:Spacer();
+
+CreditsSection4:Paragraph({Header = "Ownership & Rights",Body = "This script and all associated materials are the exclusive property of FlamesW. It is protected by copyright."});
+
+CreditsSection4:Spacer();
+
+CreditsSection4:Paragraph({Header = "License Restrictions",Body = "Unless granted written permission by the copyright holder, the following actions are prohibited:"});
+
+CreditsSection4:Spacer();
+
+CreditsSection4:SubLabel({Text = "- Copying, distributing, or redistributing this software in any form."});
+
+CreditsSection4:SubLabel({Text = "- Modifying, reverse engineering, or attempting to derive the source code."});
+
+CreditsSection4:SubLabel({Text = "- Using this software for commercial purposes without prior authorization."});
+
+CreditsSection4:Spacer();
+
+CreditsSection4:Paragraph({Header = "Disclaimer:",Body = 'This software is provided "as-is", without any express or implied warranty. The author is not responsible for any damages resulting from the use of this script.'});
+
+CreditsSection4:SubLabel({Text = "- This means you are my property ;)~"});
