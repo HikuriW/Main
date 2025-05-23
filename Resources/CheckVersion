@@ -1,5 +1,5 @@
 -- // Checks for recent updates [Inaccurate Time]~
-shared.UpdateTimer = 45; -- // Mommy said 45 so 45.
+shared.UpdateTimer = 95; -- // Cooldown (O well)~
 
 local cloneref = cloneref or function(o) return o end;
 local OnExit = function()
