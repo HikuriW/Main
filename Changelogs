@@ -1,19 +1,14 @@
 -- // This will be edited any time an update occurs [CANNOT BE MODIFIED!].
 
--- 94,94,255 (BWUO)~
--- 255,140,0 (ORENG)~
--- 94,255,94 (GEEEN)~
--- 255,0,43 (REBBB)~
-
 -- // Status Variables \\ --
-getgenv().SakuraStandStatus = '<font color="rgb(255,140,0)">Updating Soon</font> - Last Update: 06/05/2025';
-getgenv().MurderMystery2Status = '<font color="rgb(94,255,94)">Operational</font> - Last Update: 05/04/2025';
-getgenv().AriseCrossoverStatus = '<font color="rgb(94,255,94)">Operational</font> - Last Update: 14/04/2025';
-getgenv().ProjectMenacingStatus = '<font color="rgb(255,0,43)">Unoperational</font> - Last Update: 29/01/2025';
-getgenv().StandsAwakeningStatus = '<font color="rgb(255,0,43)">Unoperational</font> - Last Update: 23/12/2024';
-getgenv().SecondPieceStatus = '<font color="rgb(94,255,94)">Operational</font> - Last Update: 19/04/2025';
-getgenv().UntitledGymGameStatus = '<font color="rgb(94,255,94)">Operational</font> - Last Update: 29/01/2025';
-getgenv().AUniversalTimeStatus = '<font color="rgb(255,140,0)">Updating Soon</font> - Last Update: 01/05/2025';
+local SakuraStandStatus = '<font color="rgb(255,140,0)">Updating Soon</font> - Last Update: 06/05/2025';
+local MurderMystery2Status = '<font color="rgb(94,255,94)">Operational</font> - Last Update: 05/04/2025';
+local AriseCrossoverStatus = '<font color="rgb(94,255,94)">Operational</font> - Last Update: 14/04/2025';
+local ProjectMenacingStatus = '<font color="rgb(255,0,43)">Unoperational</font> - Last Update: 29/01/2025';
+local StandsAwakeningStatus = '<font color="rgb(255,0,43)">Unoperational</font> - Last Update: 23/12/2024';
+local SecondPieceStatus = '<font color="rgb(94,255,94)">Operational</font> - Last Update: 19/04/2025';
+local UntitledGymGameStatus = '<font color="rgb(94,255,94)">Operational</font> - Last Update: 29/01/2025';
+local AUniversalTimeStatus = '<font color="rgb(255,140,0)">Updating Soon</font> - Last Update: 01/05/2025';
 
 -- // Title \\ --
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -673,14 +668,14 @@ ChangelogsSection2:Header({Text = "Supported Games"});
 
 ChangelogsSection2:Divider();
 
-ChangelogsSection2:Paragraph({Header = "* Murder Mystery 2",Body = getgenv().MurderMystery2Status});
-ChangelogsSection2:Paragraph({Header = "* A Universal Time",Body = getgenv().AUniversalTimeStatus});
-ChangelogsSection2:Paragraph({Header = "* Untitled Gym Game",Body = getgenv().UntitledGymGameStatus});
-ChangelogsSection2:Paragraph({Header = "* Arise Crossover",Body = getgenv().AriseCrossoverStatus});
-ChangelogsSection2:Paragraph({Header = "* Sakura Stand",Body = getgenv().SakuraStandStatus});
-ChangelogsSection2:Paragraph({Header = "* Second Piece",Body = getgenv().SecondPieceStatus});
-ChangelogsSection2:Paragraph({Header = "* Project Menacing",Body = getgenv().ProjectMenacingStatus});
-ChangelogsSection2:Paragraph({Header = "* Stands Awakening",Body = getgenv().StandsAwakeningStatus});
+ChangelogsSection2:Paragraph({Header = "* Murder Mystery 2",Body = MurderMystery2Status});
+ChangelogsSection2:Paragraph({Header = "* A Universal Time",Body = AUniversalTimeStatus});
+ChangelogsSection2:Paragraph({Header = "* Untitled Gym Game",Body = UntitledGymGameStatus});
+ChangelogsSection2:Paragraph({Header = "* Arise Crossover",Body = AriseCrossoverStatus});
+ChangelogsSection2:Paragraph({Header = "* Sakura Stand",Body = SakuraStandStatus});
+ChangelogsSection2:Paragraph({Header = "* Second Piece",Body = SecondPieceStatus});
+ChangelogsSection2:Paragraph({Header = "* Project Menacing",Body = ProjectMenacingStatus});
+ChangelogsSection2:Paragraph({Header = "* Stands Awakening",Body = StandsAwakeningStatus});
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -694,11 +689,11 @@ ChangelogsSection3:Divider();
 ChangelogsSection3:Paragraph({Header = "* Before you write:",Body = "Make sure to state the game you want, It is crucial."});
 
 ChangelogsSection3:Input({Name = "Type here whatever~",Placeholder = 'Write here',AcceptedCharacters = "All",Callback = function(Input)
-     getgenv().SuggestionValue = Input;
+
 end})
 
 ChangelogsSection3:Button({Name = "Submit Suggestion [LOCKED]",Callback = function()
-   -- getgenv().SubmitSuggestion();
+
 end})
 
 ChangelogsSection3:SubLabel({Text = '<font color="rgb(255,140,0)">Disclaimer: Usernames will be logged.</font>'});
@@ -712,17 +707,17 @@ ChangelogsSection4:Header({Text = "Bug Reports"});
 ChangelogsSection4:Divider();
 
 ChangelogsSection4:Paragraph({Header = "* Before you write:",Body = "Click on the format button and paste to your notepad, Then edit it. Make sure to state the game you are in!"});
- 
+
 ChangelogsSection4:Button({Name = "Get Bug Report Format",Callback = function()
-     getgenv().GetFormat();
+
 end})
 
 ChangelogsSection4:Input({Name = "Type here whatever~",Placeholder = 'Write here',AcceptedCharacters = "All",Callback = function(Input)
-     getgenv().ReportValue = Input;
+     
 end})
 
 ChangelogsSection4:Button({Name = "Submit Report [LOCKED]",Callback = function()
-    -- getgenv().SubmitReport();
+    
 end})
 
 ChangelogsSection4:SubLabel({Text = '<font color="rgb(255,140,0)">Disclaimer: Usernames will be logged.</font>'});
