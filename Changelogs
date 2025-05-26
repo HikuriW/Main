@@ -1,14 +1,30 @@
 -- // This will be edited any time an update occurs [CANNOT BE MODIFIED!].
 
--- // Status Variables \\ --
-local SakuraStandStatus = '<font color="rgb(255,140,0)">Updating Soon</font> - Last Update: 06/05/2025';
-local MurderMystery2Status = '<font color="rgb(94,255,94)">Operational</font> - Last Update: 05/04/2025';
-local AriseCrossoverStatus = '<font color="rgb(94,255,94)">Operational</font> - Last Update: 14/04/2025';
-local ProjectMenacingStatus = '<font color="rgb(255,0,43)">Unoperational</font> - Last Update: 29/01/2025';
-local StandsAwakeningStatus = '<font color="rgb(255,0,43)">Unoperational</font> - Last Update: 23/12/2024';
-local SecondPieceStatus = '<font color="rgb(94,255,94)">Operational</font> - Last Update: 19/04/2025';
-local UntitledGymGameStatus = '<font color="rgb(94,255,94)">Operational</font> - Last Update: 29/01/2025';
-local AUniversalTimeStatus = '<font color="rgb(255,140,0)">Updating Soon</font> - Last Update: 01/05/2025';
+local function ShowStatus(Txt,Date)
+    local Texts = {
+       ["Operational"] = "rgb(94,255,94)",
+       ["Unoperational"] = "rgb(255,0,43)",
+       ["Updating Soon"] = "rgb(255,140,0)",
+    };
+    return string.format('<font color="%s">%s</font> - Last Update: %s',Texts[Txt], Txt,Date);
+end
+
+-- // Variables \\ --
+local SakuraStandStatus = ShowStatus("Updating Soon","06/05/2025");
+
+local MurderMystery2Status = ShowStatus("Operational","05/04/2025");
+
+local AriseCrossoverStatus = ShowStatus("Operational","14/04/2025");
+
+local ProjectMenacingStatus = ShowStatus("Unoperational","29/01/2025");
+
+local StandsAwakeningStatus = ShowStatus("Unoperational","23/12/2024");
+
+local SecondPieceStatus = ShowStatus("Operational","19/04/2025");
+
+local UntitledGymGameStatus = ShowStatus("Operational","29/01/2025");
+
+local AUniversalTimeStatus = ShowStatus("Updating Soon","01/05/2025");
 
 -- // Title \\ --
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
