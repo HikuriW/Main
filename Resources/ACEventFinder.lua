@@ -1,8 +1,8 @@
+-- // Hello Skidboy :), all my open source projects here: https://github.com/HikuriW/Sources
+
 --shared.RaidTypes = {"WinterIsland","JejuIsland"};
 --shared.SearchRaids = true; -- // Dont touch unless ur not an idiot.
---shared.WaitHikrui = false; -- // Executes after loading UI.
-
-shared.Timer = 1.15; -- // No longer modifiable.
+--shared.WaitHikrui = true; -- // Executes after loading UI.
 
 repeat task.wait(0.1) until game:IsLoaded();
 
@@ -11,7 +11,7 @@ if shared.WaitHikrui then repeat task.wait(1.5) until (shared.GetUI and shared.G
 local ServerHop = loadstring(game:HttpGet("https://raw.githubusercontent.com/HikuriW/Main/home/Resources/Serverhopper"))();
 local Notified = false;
 
-while shared.SearchRaids == true do task.wait(shared.Timer);
+while shared.SearchRaids == true do task.wait(1.15);
     local Flag = false;
 
     local FindEvent = function(Island)
