@@ -1,6 +1,6 @@
 --shared.RaidTypes = {"WinterIsland","JejuIsland"};
 --shared.SearchRaids = true; -- // Dont touch unless ur not an idiot.
---shared.WaitHikrui = true; -- // Executes after loading UI.
+--shared.WaitHikrui = false; -- // Executes after loading UI.
 --shared.Timer = 1.15;
 
 repeat task.wait(0.1) until game:IsLoaded();
