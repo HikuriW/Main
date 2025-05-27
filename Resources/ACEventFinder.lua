@@ -27,13 +27,14 @@ while shared.SearchRaids == true do task.wait(shared.Timer);
     end
 
     if Flag then
-        if not Notified then Notified = true;
+        if not Notified then
             if (shared.GetUI and shared.GetUI()) then
                 Window:Notify({Title = Window.Settings.Title,Description = "[!] Looks like you found "..Flag,Lifetime = 4.5});
             else
                 -- // For non Hikuriware users (Filthy scum, die.)
                 print("[!] Looks like you found "..Flag);
             end
+            Notified = true;
         end
     else
         local Settings = {ping = true,fps = false,asc = false};
