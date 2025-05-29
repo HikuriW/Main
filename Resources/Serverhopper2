@@ -1,4 +1,6 @@
 -- // Credits: https://github.com/LeoKholYt/roblox/blob/main/lk_serverhop.lua
+repeat task.wait(0.1) until game:IsLoaded();
+
 local AllIDs = {}
 local foundAnything = ""
 local actualHour = os.date("!*t").hour
