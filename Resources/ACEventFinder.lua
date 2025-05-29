@@ -6,9 +6,9 @@
 
 repeat task.wait(0.1) until game:IsLoaded();
 
-if shared.WaitHikrui then repeat task.wait(1.5) until (shared.GetUI and shared.GetUI()) end;
+if shared.WaitHikuri then repeat task.wait(1.5) until (shared.GetUI and shared.GetUI()) end;
 
-local ServerHop = loadstring(game:HttpGet("https://raw.githubusercontent.com/HikuriW/Main/home/Resources/Serverhopper"))();
+local ServerHop = loadstring(game:HttpGet("https://raw.githubusercontent.com/HikuriW/Main/home/Resources/Serverhopper2"))();
 local Notified = false;
 
 while shared.SearchRaids == true do task.wait(1.15);
@@ -38,18 +38,12 @@ while shared.SearchRaids == true do task.wait(1.15);
             Notified = true;
         end
     else
-        local Settings = {ping = true,fps = false,asc = false};
-        local Succ,Err = pcall(function()
-            ServerHop:GetServers(Settings);
-        end)
-
-        if not Succ then
-            if (shared.GetUI and shared.GetUI()) then
-                Window:Notify({Title = Window.Settings.Title,Description = "[!] Server hop failed: "..tostring(Err),Lifetime = 4.5});
-            else
-                -- // Perish in hell, little boy~
-                warn("[!] Server hop failed: ",Err);
-            end
+        if (shared.GetUI and shared.GetUI()) then
+            Window:Notify({Title = Window.Settings.Title,Description = "[!] Server hopping...",Lifetime = 4.5});
+        else
+            -- // Perish in hell, little boy~
+            print("[!] Server hopping...");
         end
+        ServerHop:Teleport(game.PlaceId);
     end
 end
