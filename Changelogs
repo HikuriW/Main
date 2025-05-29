@@ -38,6 +38,21 @@ ChangelogsSection1:Divider();
 -- // Changelogs Maker \\ --
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+ChangelogsSection1:Paragraph({Header = "Hikuriware 1.42 [Arise Corssover]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Auto Winter Event."});
+
+ChangelogsSection1:SubLabel({Text = "- Added lots of stuff."});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Autofarm Structure~"});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Overall Performance~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Hikuriware 1.41 [A Universal Time]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- Improved Boss Prioritize System."});
