@@ -3,8 +3,8 @@ shared.UpdateTimer = 95; -- // Cooldown (O well)~
 
 local cloneref = cloneref or function(o) return o end;
 local OnExit = function()
-    pcall(function() (Window:Unload();shared.Unpack()); end) task.wait(0);
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/HikuriW/Main/home/Loader.lua"))();
+    pcall(function() Window:Unload() shared.Unpack() end) task.wait(0);
+    loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\72\105\107\117\114\105\87\47\77\97\105\110\47\104\111\109\101\47\76\111\97\100\101\114\46\108\117\97\34\41\41\40\41\59\10")();
 end
 
 local M=cloneref(game:GetService("HttpService"))local Y="https://raw.githubusercontent.com/HikuriW/Main/refs/heads/home/Version.json"local a=nil local v=nil local U=nil local function b()local a=game:HttpGet(Y)return M:JSONDecode(a)end local function P()a=b()if not a then return end v=a.Version for M,Y in pairs(a.Games)do((getgenv()))[M]=Y end end local function n()local M=b()if not M then return end local Y=M.Version local a=M.Games local P={}for M,Y in pairs(a)do if((getgenv()))[M]~=Y then table.insert(P,M);((getgenv()))[M]=Y end end local n=Y~=v local D=""if n and#P>0 then D="There was an Update for ("..(table.concat(P,", ")..(") and the Version ("..(v..(" -> "..(Y..") Would you like to Reload?")))))elseif n then D="There was A minor Update. Would you like to Reload? ("..(v..(" -> "..(Y..")")))elseif#P>0 then D="There was an Update for ("..(table.concat(P,", ")..(") However the Version stays ("..(v.."). Would you like to Reload?")))end if D~=""and D~=U then Window:Dialog({Title=Window.Settings.Title,Description=D;Buttons={{Name="Confirm",Callback=function()OnExit()end};{Name="Cancel"}}})U=D end v=Y end local function D()P()while true do task.wait(shared.UpdateTimer)n()end end if not(getgenv()).UpdateNotificationShown==true then(getgenv()).UpdateNotificationShown=true D()end
