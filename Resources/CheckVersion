@@ -3,7 +3,7 @@ shared.UpdateTimer = 95; -- // Cooldown (O well)~
 
 local cloneref = cloneref or function(o) return o end;
 local OnExit = function()
-    pcall(function() (shared.GetUI()):Destroy() end);shared.Unpack();task.wait(0);
+    pcall(function() (Window:Unload();shared.Unpack()); end) task.wait(0);
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HikuriW/Main/home/Loader.lua"))();
 end
 
